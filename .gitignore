@@ -3,20 +3,26 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# --- Jupyter Notebooks ---
+# --- Jupyter ---
 .ipynb_checkpoints
-*/.ipynb_checkpoints/*
+**/.ipynb_checkpoints/*
 
 # --- Data ---
-data/
-*.csv
-*.xlsx
-*.zip
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
 
-# --- Model ---
-models/
-*.pkl
-*.h5
+# --- Models ---
+models/*
+!models/.gitkeep
+
+# --- Notebook ---
+notebooks/*
+!notebooks/.gitkeep
+
+# --- Src (optional ignore compiled) ---
+src/**/*.pyc
 
 # --- OS ---
 .DS_Store
