@@ -23,12 +23,12 @@ Features:
   - Interactive monitoring demo via Streamlit
 
 Project structure overview:
-  predictive-maintenance-iot/
-    ├── data/
-    ├── src/
-    ├── models/
-    ├── app/
-    └── README
+predictive-maintenance-iot/
+├── data/
+├── src/
+├── models/
+├── app/
+└── README.md
 
 Installation
 ------------
