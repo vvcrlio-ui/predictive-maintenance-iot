@@ -24,21 +24,20 @@ Features:
 
 Project structure overview
 
-`````
+```
 predictive-maintenance-iot/
 ├── data/
 ├── src/
 ├── models/
 ├── notebooks/
-├── app/
 └── README.md
-`````
+```
 
 Installation
 ------------
 
 Clone the repository:
-  $ git clone https://github.com/<username>/predictive-maintenance-iot.git
+  $ git clone https://github.com/vvcrlio-ui/predictive-maintenance-iot.git
   $ cd predictive-maintenance-iot
 
 Create a virtual environment and install dependencies:
