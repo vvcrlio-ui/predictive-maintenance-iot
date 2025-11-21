@@ -1,0 +1,26 @@
+# 数据处理
+pandas
+numpy
+
+# 可视化
+matplotlib
+seaborn
+
+# 机器学习核心库
+scikit-learn
+
+# 进阶模型 (我们将用这个做更准的预测)
+xgboost
+
+# 处理数据不平衡 (SMOTE)
+imbalanced-learn
+
+# 模型解释 (最加分的部分)
+shap
+
+# 网页 Demo 展示
+streamlit
+
+# Notebook 环境
+jupyter
+notebook
