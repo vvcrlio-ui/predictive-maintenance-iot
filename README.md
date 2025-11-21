@@ -22,13 +22,15 @@ Features:
   - SHAP-based feature attribution for diagnostics
   - Interactive monitoring demo via Streamlit
 
-Project structure overview:
-predictive-maintenance-iot/
+Project structure overview
+
+`````predictive-maintenance-iot/
 ├── data/
 ├── src/
 ├── models/
+├── notebooks/
 ├── app/
-└── README.md
+└── README.md`````
 
 Installation
 ------------
