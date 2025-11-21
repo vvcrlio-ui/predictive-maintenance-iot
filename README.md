@@ -24,13 +24,15 @@ Features:
 
 Project structure overview
 
-`````predictive-maintenance-iot/
+`````
+predictive-maintenance-iot/
 ├── data/
 ├── src/
 ├── models/
 ├── notebooks/
 ├── app/
-└── README.md`````
+└── README.md
+`````
 
 Installation
 ------------
