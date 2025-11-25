@@ -67,7 +67,7 @@ See the LICENSE file for details.
 Authors
 -------
 
-Wan Xiang <email@domain>
+Wan Xiang <xiang.wan@universite-paris-saclay.fr>
 Contributions and issues welcome via GitHub.
 
 Support and Contact
