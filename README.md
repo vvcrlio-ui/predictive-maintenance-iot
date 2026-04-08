@@ -84,33 +84,6 @@ Three properties make it the most suitable choice for this setting:
 
 ---
 
-## Ablation & Stress Tests
-
-### Sensor Importance (Feature Ablation)
-
-Sensors were removed one at a time and model performance evaluated on
-validation. **Sensor A_1** showed the highest individual contribution —
-its removal caused the largest drop in anomaly score separation,
-suggesting it captures the primary degradation signal. B_2 and A_5
-follow in importance.
-
-### Noise Robustness (5% Gaussian Noise Injection)
-
-Gaussian noise (σ = 5% of each feature's range) was injected into the
-test set. The global anomaly score shifted by **+0.0334** but the
-temporal trend remained intact, indicating that the degradation
-pattern is recoverable under realistic sensor noise.
-
-### Failure Mode Clustering (K-Means, k=3)
-
-K-Means clustering (k=3, determined by elbow method) was applied to
-samples flagged as anomalous. The three clusters correspond to
-qualitatively distinct sensor signatures, suggesting that the anomalous
-regime is **not homogeneous** — different failure mechanisms may be
-active at different stages.
-
----
-
 ## Project Structure
 
 ```
